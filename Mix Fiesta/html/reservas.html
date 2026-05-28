@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="../css/login_index.css">
+
+</head>
+<body>
+    <header class="navbar">
+
+        <div class="navbar-container">
+
+            <div class="navbar-logo">
+                <h2>🍹 </h2>
+            </div>
+
+            <ul class="navbar-menu">
+                <li>
+                    <a href="inicio.html" class="navbar-link">
+                        inicio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="botellas.html" class="navbar-link">
+                        Productos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="reservas.html" class="navbar-link">
+                        Reservar
+                    </a>
+                </li>
+
+                
+                <li>
+                    <a href="bartender.html" class="navbar-link">
+                        Barteneder
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html" class="navbar-link cerrar-sesion">
+                        Cerrar Sesión
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </header>
+    <section id="reservar">
+        <div class="main-container">
+            <h1 class="section-title">
+                📅 Reserva tu evento
+            </h1>
+
+            <div class="login-card">
+                <form class="login-form">
+                    <div class="form-group">
+                        <label>Nombre completo</label>
+                        <input type="text" placeholder="Ingrese su nombre" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Ingrese su email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Hora</label>
+                        <input type="time" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Número de personas</label>
+                        <input type="number" min="1" placeholder="Cantidad de invitados" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Número de bartenders</label>
+                        <input type="number" min="1" placeholder="Cantidad de bartemders" />
+                    </div>                    
+
+                    <div class="form-group full-width">
+                        <label>Tipo de evento</label>
+                        <select>
+                            <option value="">Selecciona una opción</option>
+                            <option value="cumple">Cumpleaños</option>
+                            <option value="aniversario">Aniversario</option>
+                            <option value="empresa">Cena de empresa</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label>Comentarios</label>
+                        <textarea placeholder="¿Necesitas algo especial?"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary full-width">
+                        Reservar ahora
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
